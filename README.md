@@ -2,6 +2,23 @@
 
 ## Building
 
+### Maven
+
+ * To add AndEngine via Maven you should:
+    * execute "mvn install" for your downloaded project to add it to your local repo
+    * add dependency to your pom file
+
+```java
+        <dependency>
+            <groupId>org.andengine</groupId>
+            <artifactId>andengine</artifactId>
+            <version>1.0.0</version>
+            <type>apklib</type>
+        </dependency>
+```
+
+    * enjoy!
+
 ### Eclipse
  * AndEngine has to be build with ADT-17 or higher!
 
