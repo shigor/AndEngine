@@ -47,7 +47,7 @@ public class Sprite extends RectangularShape {
 	// Fields
 	// ===========================================================
 
-	protected final ITextureRegion mTextureRegion;
+	protected ITextureRegion mTextureRegion;
 	protected final ISpriteVertexBufferObject mSpriteVertexBufferObject;
 
 	protected boolean mFlippedVertical;
